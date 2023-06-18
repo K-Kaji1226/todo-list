@@ -1,0 +1,37 @@
+.form {
+	margin-bottom: 4.267vw;
+}
+
+.inner {
+	display: flex;
+	background-color: #fff;
+	padding: 4vw 5.333vw;
+	border-radius: 5px;
+	align-items: center;
+	gap: 3.2vw;
+}
+
+.circle {
+	width: 5.333vw;
+	height: 5.333vw;
+	border-radius: 50%;
+	border: 1px solid #979797;
+	display: block;
+}
+
+.input {
+	outline: none;
+	border: none;
+	display: block;
+	width: 100%;
+	font-size: 3.2vw;
+	font-family: inherit;
+	color: #393a4b;
+	margin-top: 0.8vw;
+	caret-color: #3a7cfd;
+}
+
+.input::placeholder {
+	color: #9495a5;
+	font-size: 3.2vw;
+}

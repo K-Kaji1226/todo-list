@@ -1,4 +1,7 @@
 .container {
+	position: absolute;
 	width: 87.2vw;
-	margin: 0 auto;
+	top: 12.5333vw;
+	left: 50%;
+	transform: translateX(-50%);
 }
